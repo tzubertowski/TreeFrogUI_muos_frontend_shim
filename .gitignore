@@ -1,0 +1,6 @@
+/out/
+/*.core
+/bridge/*.o
+/bridge/test_bridge_logic
+/assets/*.muxthm
+/patches/host-api.patch
