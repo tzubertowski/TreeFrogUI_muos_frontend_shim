@@ -1,0 +1,4 @@
+[submodule "upstream"]
+	path = upstream
+	url = https://github.com/tzubertowski/TreeFrogUI_MuOS_frontend.git
+	branch = feature/libretro-host-adapter-mvp
