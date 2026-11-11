@@ -8,6 +8,14 @@ through genuine muOS input handlers.
 
 ## Build and QEMU test
 
+To compile the libretro core without running QEMU:
+
+```sh
+SF3000_TOOLCHAIN=/path/to/sdk \
+SDL2_INCLUDE=/path/to/sdl2/include \
+bash bridge/build_libretro.sh out/muos_frontend_mvp_libretro.so
+```
+
 The full MVP check cross-builds the adapter/core, runs it under MIPS QEMU, and
 stages the candidate at `out/install/cubegm/`:
 
